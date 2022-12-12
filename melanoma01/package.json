@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "csv-string": "^4.1.0"
+  }
+}
