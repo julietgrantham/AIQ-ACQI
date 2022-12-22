@@ -1,3 +1,5 @@
+# install.packages("lubridate")
+
 library("readxl")
 library("swimplot")
 library("ggplot2")
@@ -5,13 +7,13 @@ library("jsonlite")
 library("rjson")
 library("reshape2")
 library("openxlsx") 
-library("xlsx")
+# library("xlsx")
 library("lubridate")
 
 #Load Raw data
 # setwd("C:\\Users\\strah\\OneDrive\\Namizje\\Melanoma\\Prospective\\")
 # setwd("\\\\uniwa.uwa.edu.au\\userhome\\staff3\\00105493\\My Documents\\AIQ\\01. Development\\R\\Swimmer")
-setwd("\\\\uniwa.uwa.edu.au\\userhome\\staff3\\00105493\\My Documents\\AIQ\\01. Development\\australia-aiq-data-development\\melanoma01")
+setwd("C:\\Users\\julie\\OneDrive\\Documents\\AIQ\\AIQ-ACQI\\melanoma01")
 
 master_data <- fromJSON(file="file.json")
 # df_master_data <- flatten(as.data.frame(master_data$patients)) 
